@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+            <div class="top">
+                    <h1>Добави задача!</h1>
+                    <input type="text" id="new-task" placeholder="Какви са ти плановете">
+                    <button id="add-task" onclick="create()">Добави задача</button>
+            </div>
+
+            <div class="tasks">
+                    <h2>Задачи</h2>
+                    <div class="task">
+                            <input type="text" class="current" readonly="readonly">
+                            <button class="edit">Редакция</button>
+                            <button class="delete">Изтрий</button>
+                            
+                    </div>
+            </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

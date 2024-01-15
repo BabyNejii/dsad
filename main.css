@@ -1,0 +1,113 @@
+body{
+    background-color: purple;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.top{
+    width: 100%;
+    height: 200px;
+}
+.tasks{
+    width: 100%;
+}
+.top h1{
+    color: white;
+    font-family: arial;
+    font-size: 38px;
+    margin-left: 20px;
+}
+#new-task{
+    margin-left: 20px;
+    width: 70%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: plum;
+    color: white;
+    border: none;
+}
+#new-task::placeholder{
+    color: rgba(255, 255, 255, 0.425);
+}
+#add-task{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.445) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+#add-task:hover{
+    color: antiquewhite;
+    background-color: rgba(255, 235, 205, 0.288);
+    cursor: pointer;
+    transition: 0.2s;
+    scale: 1.02;
+}
+h2{
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.task{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.current{
+    margin-left: 20px;
+    width: 70%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: plum;
+    color: white;
+    border: none;
+}
+.edit{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.445) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+.edit:hover{
+    color: antiquewhite;
+    background-color: rgba(255, 235, 205, 0.288);
+    cursor: pointer;
+    transition: 0.2s;
+    scale: 1.02;
+}
+.delete{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.445) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+.delete:hover{
+    color: antiquewhite;
+    background-color: rgba(204, 34, 22, 0.288);
+    cursor: pointer;
+    transition: 0.2s;
+    scale: 1.02;
+}
